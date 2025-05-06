@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a class="logo" href="#">
+            <img src="Images/Logo (1).png" alt="logo">
+        </a>
+        <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="navbar-all" id="navbarAll">
+            <ul class="navbar-nav" id="navbarNav">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#About Us">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Destination">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Tour">Tours</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Blog">Blog</a></li>
+                <a href="#signup" class="btn-book">Book Now <span><img src="Images/Vector (1).png" alt=""></span></a>
+            </ul>
+        </div>
+    </nav>
+
+<div class="home-container">
+    <div class="home">
+        <div class="home-text">
+            <h1>Discover the Best Lovely Places</h1>
+            <p>Plan and book your perfect trip with expert advice , travel tips ,destination information and inspiration from us.</p>
+            <div class="search-form">
+                <div class="search-item">
+                    <label>Where</label>
+                    <span>Center Point , Lo... <img src="Images/location icon.png" alt=""></span>
+                </div>
+                <div class="divider"></div>
+                <div class="search-item">
+                    <label>Date</label>
+                    <span>09th March,2021 <img src="Images/Union (1).png" alt=""></span>
+                </div>
+                <button class="search-btn"><img src="Images/Icon (1).png" alt=""></button>
+            </div>
+        </div>
+        <div class="home-image">
+            <img src="Images/Image (1).png" alt="">
+        </div>
+    </div>
+</div>
+
+               <div class="categories-container" >
+                <div class="categories-header">
+                    <div>
+                        <h2>Categories</h2>
+                        <p>Here are lots of interesting destinations to visit , but don't be confused-they're already grouped by category.</p>
+                   </div>
+                   <div class="nav-buttons">
+                    <button class="nav-btn" onclick="scrollSlider(-200)">&lt;</button>
+                    <button class="nav-btn btn-dark"  onclick="scrollSlider(200)">&gt;</button>
+                   </div>
+                 </div>
+                 <div class="categories-slider" id="categories-slider">
+                    <div class="category-item"><img src="Images/Beach.png" alt="beach"><span>Beach</span></div>
+                    <div class="category-item"><img src="Images/Desert.png" alt="Desert"><span>Desert</span></div>
+                    <div class="category-item"><img src="Images/Mountain.png" alt="mountain"><span>Mountain</span></div>
+                    <div class="category-item"><img src="Images/Temple.png" alt="temple"><span>Temple</span></div>
+                    <div class="category-item"><img src="Images/Tower.png" alt="tower"><span>Tower</span></div>
+                    <div class="category-item"><img src="Images/Pyramid.png" alt="pyramid"><span>Pyramid</span></div>
+                 </div>
+              </div>
+
+
+              <div class="container experience-container" id="About Us" style="margin-top: 40px;">
+                <div class="experience-image">
+                    <div class="circle-bg"></div>
+                    <img src="Images/experience.png" alt="Traveler">
+                </div>
+                <div class="experience-text" id="experience">
+                    <h6>Our Experience</h6>
+                    <h2>Our Stories Have Adventures</h2>
+                    <p>we are experienced in bringing adventures to stay their journey , with all outdoor destinations in the world as our specialities. Start your adventure now! Nature has already called you!</p>
+                    <div class="stats-container">
+                        <div class="stats-box">
+                            <span>12K+</span>
+                            <p>Success Journey</p>
+                        </div>
+                        <div class="stats-box">
+                            <span>16+</span>
+                            <p>Award Winning</p>
+                        </div>
+                        <div class="stats-box">
+                            <span>20+</span>
+                            <p>Years of Experience</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+        
+                <div class="destinations-container" id="Destination" style="margin-top: 20px;">
+                  <h2>Top Destinations</h2>
+              
+                  <div class="slider-controls">
+                    <button id="prevSlide">◀</button>
+                    <button id="nextSlide">▶</button>
+                  </div>
+              
+                  <div class="destination-slider-wrapper">
+                    <div class="destination-grid" id="destinationSlider">
+                      <div class="destination-card">
+                        <img src="Images/Hiking.png" alt="Mountain Hiking">
+                        <h5>Mountain Hiking Tour</h5>
+                        <p>Mountain Hiking Tour</p>
+                        <p class="price">$89 /Person</p>
+                        <button class="book-now-btn">Book Now</button>
+                      </div>
+              
+                      <div class="destination-card">
+                        <img src="Images/Peru.png" alt="Machu Picchu">
+                        <h5>Machu Picchu, Peru</h5>
+                        <p>Machu Picchu, Peru</p>
+                        <p class="price">$99 /Person</p>
+                        <button class="book-now-btn">Book Now</button>
+                      </div>
+              
+                      <div class="destination-card">
+                        <img src="Images/Grand arizona.png" alt="Grand Canyon">
+                        <h5>The Grand Canyon, Arizona</h5>
+                        <p>Mountain Hiking Tour</p>
+                        <p class="price">$70 /Person</p>
+                        <button class="book-now-btn">Book Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+ 
+             
+<div class="tours-container" id="Tour" style="margin-top: 40px;">
+    <h2>Top Destinations</h2>
+    <p>Sost Brilliant Reasons Entrada should be your one-stop-shop!</p>
+    <div class="filter-buttons">
+        <button>London</button>
+        <button>Bangkok</button>
+        <button>England</button>
+        <button>Singapore</button>
+        <button>Italy</button>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item item-1">
+            <img src="Images/vietnam.png" alt="v1">
+            <div class="overlay">Vietnam<br>Worerfall</div>
+        </div>
+        <div class="grid-item item-2 item-portrait">
+            <img src="Images/yellow.png" alt="v2">
+            <div class="overlay">Vietnam<br>Wterfall</div>
+        </div>
+        <div class="grid-item item-3">
+            <img src="Images/vbuilding.png" alt="v3">
+            <div class="overlay">Vietnam<br>Wterfall</div>
+        </div>
+        <div class="grid-item item-4 item-landscape">
+            <img src="Images/bridge.png" alt="v4">
+            <div class="overlay">Vietnam<br>Wterfall</div>
+        </div>
+        <div class="grid-item item-5">
+            <img src="Images/twintower.png" alt="v5">
+            <div class="overlay">Vietnam<br>Wterfall</div>
+        </div>
+        <div class="grid-item item-6 ">
+            <img src="Images/wallclock.png" alt="v6">
+            <div class="overlay">Vietnam<br>Wterfall</div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container review-container" id="Blog" style="margin-top: 30px;">
+    <div class="review-image">
+        <img src="Images/review.png" alt="">
+    </div>
+    <div class="review-content">
+        <h2>A Customer Said
+               About Us:</h2>
+        <p class="review-text">
+            Salty helped me a lot in finding the best place our first outdoor adventure trip.They responded very quickly and gave me a detailed account of the place-its history, as well as its best features.
+        </p>
+        <div class="star-rating">⭐⭐⭐⭐⭐</div>
+        <p class="reviewer-name">Andrew Sarma</p>
+        <p class="reviewer-role">Enterpreneur</p>
+        <div class="review-buttons">
+          <button>◀</button>
+          <button>▶</button>
+        </div>
+    </div>
+</div>
+
+
+<section class="signup-section" id="signin" style="margin-top: 30px;">
+    <div class="newsletter-container">
+        <h2 class="newsletter-title">Sign up to our newsletter</h2>
+        <p class="newsletter-text">Receive the latest news , updates na more every week.</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter Your email Address">
+            <button type="submit">
+                <img src="Images/send Icon.png" alt="send">
+            </button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Column 1: Logo & Social -->
+    <div class="footer-column">
+      <div class="footer-logo">
+        <img src="Images/Logo (1).png" alt="Salty Logo">
+      </div>
+      <p class="footer-text">Enjoy the touring with Salty</p>
+      <div class="social-icons">
+        <img src="Images/facebook.png" alt="Facebook">
+        <img src="Images/instagram.png" alt="Twitter">
+        <img src="Images/twitter.png" alt="Instagram">
+      </div>
+    </div>
+
+    <!-- Column 2: Resources -->
+    <div class="footer-column">
+      <h5 class="footer-heading">Resources</h5>
+      <div class="footer-links">
+        <a href="#">Download</a>
+        <a href="#">Help Center</a>
+        <a href="#">Guide Book</a>
+        <a href="#">App Directory</a>
+      </div>
+    </div>
+
+    <!-- Column 3: Travellers -->
+    <div class="footer-column">
+      <h5 class="footer-heading">Travellers</h5>
+      <div class="footer-links">
+        <a href="#">Why Travellers</a>
+        <a href="#">Enterprise</a>
+        <a href="#">Customer Stories</a>
+        <a href="#">Instagram Post</a>
+      </div>
+    </div>
+
+    <!-- Column 4: Company -->
+    <div class="footer-column">
+      <h5 class="footer-heading">Company</h5>
+      <div class="footer-links">
+        <a href="#">Travelling</a>
+        <a href="#">About Locato</a>
+        <a href="#">Success</a>
+        <a href="#">Information</a>
+      </div>
+    </div>
+
+    <!-- Column 5: Get App -->
+    <div class="footer-column">
+      <h5 class="footer-heading">Get App</h5>
+      <div class="footer-links">
+        <a href="#">App Store</a>
+        <a href="#">Google Play Store</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
